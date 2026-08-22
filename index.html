@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>GYMMY VIP — Coming Soon</title>
 
     <style>
@@ -11,26 +12,40 @@
             margin: 0;
             padding: 0;
             width: 100%;
-            min-height: 100%;
+            height: 100%;
             background: #000;
         }
 
         body {
             display: flex;
             justify-content: center;
-            align-items: flex-start;
+            align-items: center;
+            overflow: hidden;
         }
 
-        img {
+        .landing-page {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .landing-page img {
             display: block;
             width: 100%;
             height: auto;
-            max-width: 100%;
         }
     </style>
 </head>
 
 <body>
-    <img src="gymmy-coming-soon.jpg" alt="GYMMY VIP — Coming Soon">
+
+    <div class="landing-page">
+        <img
+            src="gymmy-coming-soon.jpg"
+            alt="GYMMY VIP — Coming Soon"
+        >
+    </div>
+
 </body>
 </html>
